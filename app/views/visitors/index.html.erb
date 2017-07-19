@@ -23,7 +23,7 @@
             <div class="carousel-inner">
               <% @products.each_with_index do |product, index| %>
                 <div class="<%= index == 0 ? 'item active' : 'item' %>">
-                  <%= image_tag product.image_path, class: 'slide-item', style: 'max-width: 800px; max-height: 300px;' %>
+                  <%= image_tag product.image_path_or_image, class: 'slide-item', style: 'max-width: 800px; max-height: 300px;' %>
                 </div>
               <% end %>
             </div>
