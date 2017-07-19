@@ -22,6 +22,7 @@ gem 'devise'
 gem 'high_voltage', '~> 3.0'
 gem 'pg'
 gem 'slim-rails'
+gem 'carrierwave'
 group :development do
   # gem 'rails_layout'
   gem 'spring-commands-rspec'
